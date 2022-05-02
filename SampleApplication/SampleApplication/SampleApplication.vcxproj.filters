@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\MeshDraw.cpp" />
+    <ClCompile Include="Source\PostProcess.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\ShadowMap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MeshDraw.h" />
+    <ClInclude Include="Source\PostProcess.h" />
+    <ClInclude Include="Source\ShadowMap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Shader\VertexShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\PostProcessPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\PostProcessVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\PixelShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{65f298ca-824a-4c39-b863-02ee60365afa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shader\ShaderCommon.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

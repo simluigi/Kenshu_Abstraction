@@ -1,0 +1,10 @@
+#include "MenuResource.h"
+
+MENUID MENU
+{
+	POPUP "API"
+	{
+		MENUITEM "D3D11", 100
+		MENUITEM "D3D12", 101
+	}
+}

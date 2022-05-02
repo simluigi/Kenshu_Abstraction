@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{3c261ca7-998a-4fde-9b8c-212bd44eecd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{2cb57c22-dfa0-4b68-946e-e700f24f6581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{509c0f45-e9e9-4af4-a61b-0fd6b2659560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{8777cb74-9dba-45f1-b084-00c6c15c3842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Math">
+      <UniqueIdentifier>{b8a2e0f6-3240-4f43-9324-e53ebda56cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\D3D11">
+      <UniqueIdentifier>{e422831a-23fc-4b7a-a3f7-5d63b359cc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\D3D12">
+      <UniqueIdentifier>{a7a79d6d-7042-4e79-ba18-b1f94ba4c09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\D3DUtility">
+      <UniqueIdentifier>{d157e6b5-16fb-4c79-85bd-189377687d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Input">
+      <UniqueIdentifier>{94a5e011-3348-4f32-9c36-7b29e2a19d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{cc585ced-3947-4f79-9e95-9d2680cef1c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\Renderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\Window.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Math\Vector.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\Camera.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RenderContext.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RenderingData.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RenderPass.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\Input\Input.cpp">
+      <Filter>Windows\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\CommandBuffer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RenderObject.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3DUtility\D3DSwapChain.cpp">
+      <Filter>Windows\D3DUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3DUtility\D3DUtility.cpp">
+      <Filter>Windows\D3DUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RenderResource.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\Texture.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\MeshRenderPass.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D11\D3D11CommandBuffer.cpp">
+      <Filter>Windows\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D11\D3D11RenderContext.cpp">
+      <Filter>Windows\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D11\D3D11Renderer.cpp">
+      <Filter>Windows\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D11\D3D11RenderingData.cpp">
+      <Filter>Windows\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D11\D3D11RenderObject.cpp">
+      <Filter>Windows\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D11\D3D11RenderResource.cpp">
+      <Filter>Windows\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D11\D3D11Texture.cpp">
+      <Filter>Windows\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D12\D3D12CommandBuffer.cpp">
+      <Filter>Windows\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D12\D3D12RenderContext.cpp">
+      <Filter>Windows\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D12\D3D12Renderer.cpp">
+      <Filter>Windows\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D12\D3D12RenderingData.cpp">
+      <Filter>Windows\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D12\D3D12RenderObject.cpp">
+      <Filter>Windows\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D12\D3D12RenderResource.cpp">
+      <Filter>Windows\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D12\D3D12Texture.cpp">
+      <Filter>Windows\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3DUtility\D3DCamera.cpp">
+      <Filter>Windows\D3DUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Math\Transform.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\ThreadPool.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\RenderTarget.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Windows\D3D12\D3D12RenderTarget.cpp">
+      <Filter>Windows\D3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\PostProcess.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\ShadowPass.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Rendering\Renderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\Window.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Math\Vector.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\Camera.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderContext.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderingData.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderPass.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\Input\Input.h">
+      <Filter>Windows\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\CommandBuffer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderObject.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3DUtility\D3DSwapChain.h">
+      <Filter>Windows\D3DUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3DUtility\D3DUtility.h">
+      <Filter>Windows\D3DUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderResource.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\Texture.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\MeshRenderPass.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D11\D3D11CommandBuffer.h">
+      <Filter>Windows\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D11\D3D11RenderContext.h">
+      <Filter>Windows\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D11\D3D11Renderer.h">
+      <Filter>Windows\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D11\D3D11RenderingData.h">
+      <Filter>Windows\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D11\D3D11RenderObject.h">
+      <Filter>Windows\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D11\D3D11RenderResource.h">
+      <Filter>Windows\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D11\D3D11Texture.h">
+      <Filter>Windows\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D12\D3D12CommandBuffer.h">
+      <Filter>Windows\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D12\D3D12RenderContext.h">
+      <Filter>Windows\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D12\D3D12Renderer.h">
+      <Filter>Windows\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D12\D3D12RenderingData.h">
+      <Filter>Windows\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D12\D3D12RenderObject.h">
+      <Filter>Windows\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D12\D3D12RenderResource.h">
+      <Filter>Windows\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D12\D3D12Texture.h">
+      <Filter>Windows\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3DUtility\D3DCamera.h">
+      <Filter>Windows\D3DUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderCommon.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Math\Transform.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\ThreadPool.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\RenderTarget.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\D3D12\D3D12RenderTarget.h">
+      <Filter>Windows\D3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\PostProcess.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Windows\MenuResource.h" />
+    <ClInclude Include="Source\Application\ShadowPass.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shader\ShaderCommon.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Shader\PixelShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\VertexShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\PostProcessVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\PostProcessPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\LightViewVertexShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
